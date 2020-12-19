@@ -1,4 +1,4 @@
-# demo-corporate
+# Nuxt.js TypeScript Tailwindcss Storybook Template
 
 ## Build Setup
 
