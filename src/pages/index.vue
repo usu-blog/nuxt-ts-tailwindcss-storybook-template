@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Button label="テストボタン" />
+    <Button color="primary">テストボタン</Button>
   </div>
 </template>
 

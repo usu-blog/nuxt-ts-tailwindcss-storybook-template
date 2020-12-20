@@ -1,11 +1,15 @@
+const colors = require('tailwindcss/colors')
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
+  future: {},
   purge: ['./src/**/*.{vue,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: colors.green,
+        warning: colors.amber,
+        error: colors.red,
+      },
+    },
   },
   variants: {},
   plugins: [],
